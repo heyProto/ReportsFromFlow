@@ -4,6 +4,9 @@ Command line utility tool. Generates markdown console output for SOD, EOD and we
 
 Currently only supports SOD reports.
 
+Markdown output integration with Slack App example:
+![Slack App Example](resources/SlackApp.png "Slack App Example")
+
 ### Installation
 
 ```sh
@@ -34,5 +37,6 @@ $ node index.js -t <flow_access_token>
 
 ### TODO
 
-1. Support EOD and weekly standups
-2. Integrate with Slack Apps
+1. Correct implementation of "flagged" to only show tasks that the owner has flagged
+2. Support EOD and weekly standups
+3. Integrate with Slack Apps
